@@ -1,0 +1,483 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dokuwiki</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="#favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!" />
+    <link href="https://preview.tabler.io/dist/css/tabler.min.css" rel="stylesheet" />
+    <link href="https://preview.tabler.io/dist/css/tabler-flags.min.css" rel="stylesheet" />
+    <link href="https://preview.tabler.io/dist/css/tabler-payments.min.css" rel="stylesheet" />
+    <link href="https://preview.tabler.io/dist/css/tabler-vendors.min.css" rel="stylesheet" />
+    <link href="https://preview.tabler.io/dist/css/demo.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar-expand-md">
+        <div class="navbar-collapse collapse" id="navbar-menu">
+          <div class="navbar navbar-dark">
+            <div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#index">
+                    <span class="nav-link-title">Download</span>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#navbar-base" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                    <span class="nav-link-title">Wiki</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="nav-link-title">Forum</span>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#navbar-extra" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                    <span class="nav-link-title">IRC</span>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#navbar-layout" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                    <span class="nav-link-title">Bugs</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="nav-link-title">Translate</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="nav-link-title">Git</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="nav-link-title">XRef</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    <span class="nav-link-title">Code Search</span>
+                  </a>
+                </li>
+                <div class="nav-item dropdown">
+                  <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last">
+                    <form action="." method="get">
+                      <div class="input-icon">
+                        <span class="input-icon-addon">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <circle cx="10" cy="10" r="7"></circle>
+                            <line x1="21" y1="21" x2="15" y2="15"></line>
+                          </svg>
+                        </span>
+                        <input class="form-control" type="text" placeholder="Search…" aria-label="Search in website" />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <a class="dropdown-item" href="#">Set status</a>
+                    <a class="dropdown-item" href="#">Profile &amp; account</a>
+                    <a class="dropdown-item" href="#">Feedback</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="navbar navbar-expand-md navbar-light d-print-none">
+        <div class="container-xl">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="headings group">
+            <ul class="a11y skip"></ul>
+            <h1>
+              <a href="/start" accesskey="h" title="[H]">
+                <img src="/lib/tpl/dokuwiki/images/logo.png" width="64" height="64" alt="" />
+                <span>DokuWiki</span>
+              </a>
+            </h1>
+            <p class="claim">It&apos;s better when it&apos;s simple</p>
+          </div>
+          <div class="navbar-nav flex-row order-md-last">
+            <div class="nav-item d-none d-md-flex me-3">
+              <div class="btn-list">
+                <a class="btn btn-outline-white" href="https://github.com/tabler/tabler" target="_blank" rel="noreferrer">Recent Changes</a>
+                <a class="btn btn-outline-white" href="#" target="_blank" rel="noreferrer">Media Manager</a>
+                <a class="btn btn-outline-white" href="#" target="_blank" rel="noreferrer">Sitemap</a>
+                <a class="btn btn-outline-white" href="#" target="_blank" rel="noreferrer">Log In</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last">
+                <form action="." method="get">
+                  <div class="input-icon">
+                    <span class="input-icon-addon">
+                      <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="10" cy="10" r="7"></circle>
+                        <line x1="21" y1="21" x2="15" y2="15"></line>
+                      </svg>
+                    </span>
+                    <input class="form-control" type="text" placeholder="Search…" aria-label="Search in website" />
+                  </div>
+                </form>
+              </div>
+              <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <a class="dropdown-item" href="#">Set status</a>
+                <a class="dropdown-item" href="#">Profile &amp; account</a>
+                <a class="dropdown-item" href="#">Feedback</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="navbar-expand-md">
+        <div class="navbar-collapse collapse" id="navbar-menu">
+          <div class="navbar navbar-light">
+            <div class="container-xl">
+              <ul class="navbar-nav">
+                <div class="trace">
+                  <span class="bchead">Trace:</span>
+                  <span class="bcsep">&bull;</span>
+                  <bdi>
+                    <a class="breadcrumbs" href="/faq:support" title="faq:support">support</a>
+                  </bdi>
+                  <span class="bcsep">&bull;</span>
+                  <bdi>
+                    <a class="breadcrumbs" href="/teams:getting_involved" title="teams:getting_involved">getting_involved</a>
+                  </bdi>
+                  <span class="bcsep">&bull;</span>
+                  <bdi>
+                    <a class="breadcrumbs" href="/mailinglist" title="mailinglist">mailinglist</a>
+                  </bdi>
+                  <span class="bcsep">&bull;</span>
+                  <bdi>
+                    <a class="breadcrumbs" href="/irc" title="irc">irc</a>
+                  </bdi>
+                  <span class="bcsep">&bull;</span>
+                  <bdi>
+                    <a class="breadcrumbs" href="/start" title="start">start</a>
+                  </bdi>
+                  <span class="bcsep">&bull;</span>
+                  <span class="curid">
+                    <bdi>
+                      <a class="breadcrumbs" href="/dokuwiki" title="dokuwiki">dokuwiki</a>
+                    </bdi>
+                  </span>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-wrapper">
+        <div class="container-xl">
+          <!-- Page title-->
+        </div>
+        <div class="page-body">
+          <div class="container-xl">
+            <div class="row gx-lg-4">
+              <div class="d-none d-lg-block col-lg-3">
+                <ul class="nav nav-pills nav-vertical">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#docs">Learn about DokuWiki</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu-base" data-bs-toggle="collapse" aria-expanded="false">Advanced Use <span class="nav-link-toggle"></span>
+                    </a>
+                    <ul class="nav nav-pills collapse" id="menu-base">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Getting Started</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Download</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Browser Support</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu-content" data-bs-toggle="collapse" aria-expanded="false">Corporate Use <span class="nav-link-toggle"></span>
+                    </a>
+                    <ul class="nav nav-pills collapse" id="menu-content">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Colors</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Typography</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Icons</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu-content" data-bs-toggle="collapse" aria-expanded="false">Our Community <span class="nav-link-toggle"></span>
+                    </a>
+                    <ul class="nav nav-pills collapse" id="menu-content">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Colors</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Typography</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Icons</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <div class="group">
+                    <hr />
+                    <p>Follow us on <a class="urlextern" href="http://www.facebook.com/pages/DokuWiki/52877633616" title="http://www.facebook.com/pages/DokuWiki/52877633616">Facebook</a>, <a class="urlextern" href="http://twitter.com/dokuwiki" title="http://twitter.com/dokuwiki">Twitter</a> and other <a class="wikilink1" href="/social" title="social" data-wiki-id="social">social networks</a>. </p>
+                    <p>
+                      <a class="wikilink1" href="/privacy" title="privacy" data-wiki-id="privacy">Our Privacy Policy</a>
+                    </p>
+                  </div>
+                </ul>
+              </div>
+              <div class="col-lg-9">
+                <div class="card card-lg">
+                  <div class="card-body">
+                    <div class="markdown">
+                      <div>
+                        <div class="d-flex mb-3">
+                          <h1 class="m-0">DokuWiki</h1>
+                        </div>
+                      </div>
+                      <p>DokuWiki is a simple to use and highly versatile Open Source wiki software that doesn&apos;t require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator&apos;s favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.</p>
+                      <p>Get started: <a class="media" href="http://download.dokuwiki.org" title="http://download.dokuwiki.org">
+                          <img class="media" src="https://www.dokuwiki.org/_media/marketing:download-big.png" title="Download the latest version" alt="Download the latest version" />
+                        </a>
+                      </p>
+                      <div class="mt-4">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="dokuteaser">
+                              <h3 class="sectionedit4" id="why_dokuwiki">Why DokuWiki?</h3>
+                              <p>
+                                <img class="mediaright" src="/_media/wiki:dokuwiki-128.png?w=80&amp;tok=a6886f" alt="" width="80" /> DokuWiki is a popular choice when choosing a Wiki software and has many advantages over similar software.
+                              </p>
+                              <ul>
+                                <li class="level1">
+                                  <div class="li">Easy to install and use</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Low system requirements</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Built-in Access Control Lists</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Large variety of extensions</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Over 50 languages supported</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Device independent</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Open Source</div>
+                                </li>
+                              </ul>
+                              <p>
+                                <a class="wikilink1" href="/features" title="features" data-wiki-id="features">Learn more about DokuWiki features</a>
+                              </p>
+                            </div>
+                            <ul class="list-unstyled">
+                              <li>- <a href="#docs/getting-started">Getting Started</a>
+                              </li>
+                              <li>- <a href="#docs/download">Download</a>
+                              </li>
+                              <li>- <a href="#docs/browser-support">Browser Support</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="dokuteaser">
+                              <h3 class="sectionedit13" id="our_community">Our Community</h3>
+                              <p>
+                                <img class="mediaright" src="/_media/marketing:community.png?w=90&amp;tok=f680a7" alt="" width="90" /> A part of OpenSource is giving back to the community by getting involved. There are numerous of options to do that.
+                              </p>
+                              <ul>
+                                <li class="level1">
+                                  <div class="li">Share your experience</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Do some wiki gardening</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Help plugin authors with documentation</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="urlextern" href="http://translate.dokuwiki.org/" title="http://translate.dokuwiki.org/">Help translate the DokuWiki interface</a>
+                                  </div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="urlextern" href="https://github.com/splitbrain/dokuwiki/issues" title="https://github.com/splitbrain/dokuwiki/issues">Submit bugs and feature wishes</a>
+                                  </div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="urlextern" href="http://forum.dokuwiki.org" title="http://forum.dokuwiki.org">Answer questions in the forum</a>
+                                  </div>
+                                </li>
+                              </ul>
+                              <p>
+                                <a class="wikilink1" href="/teams:getting_involved" title="teams:getting_involved" data-wiki-id="teams:getting_involved">Get involved</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="dokuteaser">
+                              <h3 class="sectionedit13" id="our_community">Our Community</h3>
+                              <p>
+                                <img class="mediaright" src="/_media/marketing:community.png?w=90&amp;tok=f680a7" alt="" width="90" /> A part of OpenSource is giving back to the community by getting involved. There are numerous of options to do that.
+                              </p>
+                              <ul>
+                                <li class="level1">
+                                  <div class="li">Share your experience</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Do some wiki gardening</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">Help plugin authors with documentation</div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="urlextern" href="http://translate.dokuwiki.org/" title="http://translate.dokuwiki.org/">Help translate the DokuWiki interface</a>
+                                  </div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="urlextern" href="https://github.com/splitbrain/dokuwiki/issues" title="https://github.com/splitbrain/dokuwiki/issues">Submit bugs and feature wishes</a>
+                                  </div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="urlextern" href="http://forum.dokuwiki.org" title="http://forum.dokuwiki.org">Answer questions in the forum</a>
+                                  </div>
+                                </li>
+                              </ul>
+                              <p>
+                                <a class="wikilink1" href="/teams:getting_involved" title="teams:getting_involved" data-wiki-id="teams:getting_involved">Get involved</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="dokuteaser">
+                              <h3 class="sectionedit10" id="customizing_dokuwiki">Customizing DokuWiki</h3>
+                              <p>
+                                <img class="mediaright" src="/_media/marketing:customize.png?w=90&amp;tok=341295" alt="" width="90" /> We support customization on all levels of expertise. From easy configuration via the admin interface through downloading of templates and plugins to developing your own extensions.
+                              </p>
+                              <ul>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="wikilink1" href="/config" title="config" data-wiki-id="config">Configuration</a>
+                                  </div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="wikilink1" href="/plugins" title="plugins" data-wiki-id="plugins">Plugins</a>
+                                  </div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="wikilink1" href="/template" title="template" data-wiki-id="template">Templates</a> (aka. skins/themes)
+                                  </div>
+                                </li>
+                                <li class="level1">
+                                  <div class="li">
+                                    <a class="wikilink1" href="/tips" title="tips" data-wiki-id="tips">Tips &amp; tricks</a>
+                                  </div>
+                                </li>
+                              </ul>
+                              <p>
+                                <a class="wikilink1" href="/development" title="development" data-wiki-id="development">Read the development manual</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <h3>Copyright</h3>
+                            <div>
+                              <p>2004-2021 &copy; Andreas Gohr <a class="mail" href="mailto:andi%20%5Bat%5D%20splitbrain%20%5Bdot%5D%20org" title="andi [at] splitbrain [dot] org">andi [at] splitbrain [dot] org</a>
+                                <sup>
+                                  <a class="fn_top" id="fnt__1" href="#fn__1">1)</a>
+                                </sup> and the DokuWiki Community
+                              </p>
+                              <p>The DokuWiki engine is licensed under <a class="urlextern" href="http://www.gnu.org/licenses/gpl" title="http://www.gnu.org/licenses/gpl">GNU General Public License</a> Version 2. If you use DokuWiki in your company, consider <a class="interwiki iw_doku" href="https://www.dokuwiki.org/donate" title="https://www.dokuwiki.org/donate">donating</a> a few bucks <img class="icon" src="https://www.dokuwiki.org/lib/images/smileys/icon_wink.gif" alt=";-)" />. </p>
+                              <p>Not sure what this means? See the <a class="interwiki iw_doku" href="https://www.dokuwiki.org/faq%3Alicense" title="https://www.dokuwiki.org/faq%3Alicense">FAQ on the Licenses</a>. </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <h1>What users say</h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="docInfo" style="        margin-left: 800px;        ">
+          <bdi>dokuwiki.txt</bdi> &middot; Last modified: 2021-01-16 14:28 by <bdi>ach</bdi>
+        </div>
+        <footer class="footer footer-transparent d-print-none container-xl">
+          <div id="container-xl" style="            margin-left: 200px;            ">
+            <div class="container-xl">
+              <div class="container-xl">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi>
+                  <a class="urlextern" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" rel="license">CC Attribution-Share Alike 4.0 International</a>
+                </bdi>
+              </div>
+              <div class="container-xl">
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" rel="license">
+                  <img src="https://www.dokuwiki.org/lib/images/license/button/cc-by-sa.png" alt="CC Attribution-Share Alike 4.0 International" />
+                </a>
+                <a href="https://www.dokuwiki.org/donate" title="Donate">
+                  <img src="https://www.dokuwiki.org/lib/tpl/dokuwiki/images/button-donate.gif" width="80" height="15" alt="Donate" />
+                </a>
+                <a href="https://php.net" title="Powered by PHP">
+                  <img src="https://www.dokuwiki.org/lib/tpl/dokuwiki/images/button-php.gif" width="80" height="15" alt="Powered by PHP" />
+                </a>
+                <a href="//validator.w3.org/check/referer" title="Valid HTML5">
+                  <img src="https://www.dokuwiki.org/lib/images/license/button/cc-by-sa.png" width="80" height="15" alt="Valid HTML5" />
+                </a>
+                <a href="//jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS">
+                  <img src="https://www.dokuwiki.org//lib/tpl/dokuwiki/images/button-css.png" width="80" height="15" alt="Valid CSS" />
+                </a>
+                <a href="https://dokuwiki.org/" title="Driven by DokuWiki">
+                  <img src="https://www.dokuwiki.org/lib/tpl/dokuwiki/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" />
+                </a>
+              </div>
+              <div style="float: left">DokuWiki is currently sponsored by: <a class="urlextern" href="http://www.aoe.com/">AOE &ndash; the open web company</a>
+              </div>
+              <div style="float: right">
+                <a href="http://www.splitbrain.org/personal#imprint" style="float: right; text-decoration: none; color: #333">Imprint</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
