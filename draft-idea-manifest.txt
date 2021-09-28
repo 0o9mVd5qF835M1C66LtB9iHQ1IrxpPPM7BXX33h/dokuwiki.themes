@@ -1,0 +1,9 @@
+I was thinking about making the main page more responsive, beautiful, attractive and intuitive. Something amazing, satisfying and purposeful. An interesting design for an awesome and interesting tool also like dokuwiki. My idea is to make Dokuwiki something dynamic, interesting, visually beautiful. I've been using Dokuwiki for years, but some themes didn't appeal to me visually. I studied a lot to understand how php, css, js and css works and to so help the community Dokuwiki. I apologize if this is not in the interest of the community.
+
+My idea of ​​a visual reference would be Confluence Cloud, Evernote. In my opinion they have a great graphical interface and user experience. I want when people use Dokuwiki to feel like they're using something like Evernote or Confluence Cloud. May people have a great experience using an open source tool. If the look is important, making an open source and interesting tool is too. So I'm creating some plugins for Dokuwiki. The idea is the same as you had on the main page, the difference is that I use Dokuwiki with Tabler.io to give this interesting graphical experience.
+
+image
+
+If you find the idea interesting, I can recreate the Dokuwiki pages with tabler.io
+
+Source-code: https://pastebin.com/raw/V4Mnf51M (only html, css)
